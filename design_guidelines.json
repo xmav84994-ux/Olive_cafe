@@ -1,0 +1,99 @@
+{
+  "project": "The Black Olive Rooftop Cafe & Restaurant",
+  "theme": "dark",
+  "brand": "THE BLACK OLIVE",
+  "location": "Rajkot/Gujarat area, India",
+  "cta": {
+    "action": "Call to book",
+    "phone": "87803 76399"
+  },
+  "typography": {
+    "heading_font": "Cormorant Garamond",
+    "body_font": "Outfit",
+    "hierarchy": {
+      "h1": "text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-light tracking-tighter uppercase",
+      "h2": "text-3xl sm:text-4xl md:text-5xl font-light tracking-tight",
+      "h3": "text-2xl sm:text-3xl font-normal",
+      "body": "text-base leading-relaxed tracking-wide text-white/80",
+      "overline": "text-xs font-semibold tracking-[0.2em] uppercase text-[#C5A059]"
+    },
+    "guidelines": "Use 'Cormorant Garamond' for all primary headings to establish editorial luxury. Avoid bolding headings excessively; lean into 'font-light'. 'Outfit' is for body copy and navigational elements for sharp, sterile clarity."
+  },
+  "colors": {
+    "background": "#050505",
+    "surface": "#121212",
+    "primary_gold": "#C5A059",
+    "primary_gold_hover": "#D4AF37",
+    "accent_teal": "#1A3636",
+    "accent_olive": "#2C3524",
+    "text_main": "#F5F5F5",
+    "text_muted": "#A3A3A3",
+    "border_subtle": "rgba(197, 160, 89, 0.15)",
+    "overlay": "rgba(0, 0, 0, 0.6)"
+  },
+  "visual_enhancers": {
+    "surfaces": "Glassmorphism for sticky header: 'backdrop-blur-xl bg-[#050505]/70 border-b border-[#C5A059]/10'. Use solid matte backgrounds for general content sections.",
+    "effects": "Subtle grain texture overlay over dark backgrounds to avoid digital flatness. Soft glow effects specifically around gold/neon elements.",
+    "borders": "1px solid delicate borders using 'border_subtle' for defining cards or menu sections.",
+    "shadows": "Ambient diffuse shadows for floating elements, no hard dropdown shadows."
+  },
+  "layouts": {
+    "spacing": "Generous Spacing Philosophy. Use p-12, p-16, p-24 for section paddings. Luxury needs negative space.",
+    "grid": "Bento 'Tetris' Grid for the photo gallery. Base: grid-cols-1 md:grid-cols-12 gap-8. Mix shapes (e.g., col-span-8 row-span-2, col-span-4 row-span-1) to create asymmetry and tension.",
+    "hero": "Full screen (h-[100svh]). Kinetic text reveal for the brand name. The hero image MUST have a 'bg-black/50' overlay so the text pops beautifully.",
+    "menu_section": "Categories: Coffee, Fast Food, Fine Dining, Desserts, South Indian. Use an elegant list layout with dotted leader lines (or minimalist flex layout) connecting item names to prices. Avoid boxed cards.",
+    "footer": "Massive py-32 padding. Feature the Gold Neon Olive-Branch Logo large."
+  },
+  "motion": {
+    "scroll": "Lenis for smooth momentum scrolling is MANDATORY. It adds physical weight and luxury to the page.",
+    "entrance": "Framer Motion: fade-up and slow-reveal for typography and images. Use staggerChildren for the menu lists and gallery items.",
+    "marquee": "Use react-fast-marquee for a slow, organic 'Editorial Ribbon' across the screen displaying the brand ethos or 'ROOFTOP CAFE & RESTAURANT'."
+  },
+  "components_and_features": {
+    "button": "Sharp rectangular or subtle pill. Solid gold background ('bg-[#C5A059]') with black text, or outline style ('border border-[#C5A059] text-[#C5A059]'). Hover must show slight lift ('-translate-y-1') and color brightness shift.",
+    "map": "Embed Google Maps iframe for Rajkot location. Use CSS filters (e.g., 'filter: invert(90%) hue-rotate(180deg)') if possible to make it dark mode friendly, or blend it seamlessly into a dark container.",
+    "testimonials": "Carousel for 5 customer testimonials. Use Framer Motion or Swiper. Keep UI minimalist: large elegant quote marks, delicate typography for the review.",
+    "SEO_AEO": "Ensure proper semantic HTML tags (<header>, <main>, <section>, <article>, <nav>). Add descriptive alt tags to images. Ensure fast load times via proper image sizing (Tailwind aspect-ratio or strict w/h classes where applicable)."
+  },
+  "media": {
+    "images": [
+      {
+        "url": "https://customer-assets-m6fa6gv7.emergentagent.net/job_3ac1b4a5-b0ae-4ffd-9332-2af689cc34a0/artifacts/v8ziaoz7_ChatGPT%20Image%20Aug%2031%2C%202026%2C%2011_40_21%20AM.png",
+        "category": "hero",
+        "description": "Night exterior of the rooftop cafe. Use as the main hero background covering the screen."
+      },
+      {
+        "url": "https://customer-assets-m6fa6gv7.emergentagent.net/job_3ac1b4a5-b0ae-4ffd-9332-2af689cc34a0/artifacts/8915fwv7_ChatGPT%20Image%20Aug%2031%2C%202026%2C%2011_40_50%20AM.png",
+        "category": "gallery_large",
+        "description": "Wood interior with teal chairs. Place as a dominant image in the asymmetric gallery section."
+      },
+      {
+        "url": "https://customer-assets-m6fa6gv7.emergentagent.net/job_3ac1b4a5-b0ae-4ffd-9332-2af689cc34a0/artifacts/smob44cr_ChatGPT%20Image%20Aug%2031%2C%202026%2C%2011_41_07%20AM.png",
+        "category": "about",
+        "description": "Long dining hall with waiter. Ideal for the 'About / Story manifesto' section next to text."
+      },
+      {
+        "url": "https://customer-assets-m6fa6gv7.emergentagent.net/job_3ac1b4a5-b0ae-4ffd-9332-2af689cc34a0/artifacts/vyka5rlh_ChatGPT%20Image%20Aug%2031%2C%202026%2C%2011_41_16%20AM.png",
+        "category": "gallery_accent",
+        "description": "Wooden pendant lamp detail. Use in the gallery grid as a smaller accent block (e.g. col-span-4)."
+      },
+      {
+        "url": "https://customer-assets-m6fa6gv7.emergentagent.net/job_3ac1b4a5-b0ae-4ffd-9332-2af689cc34a0/artifacts/306rjbvr_ChatGPT%20Image%20Aug%2031%2C%202026%2C%2011_50_43%20AM.png",
+        "category": "branding",
+        "description": "Gold neon olive-branch logo on black. Prominently display in the footer or an interstitial section."
+      }
+    ]
+  },
+  "UNIVERSAL_GUIDELINES_FOR_MAIN_AGENT": [
+    "No generic centered layouts; prioritize asymmetric grids, left-aligned typography blocks, and sophisticated editorial arrangements.",
+    "Do not use fully transparent header backgrounds over images without blur. Always use backdrop-blur with a semi-transparent dark tint.",
+    "Never use AI assistant emoji characters anywhere in the UI. Use sleek SVG icons (lucide-react) if necessary.",
+    "Ensure all interactive and key informational elements have 'data-testid' attributes (e.g., data-testid='call-to-book-button').",
+    "Include hover states and micro-animations for all interactable elements. Static equals dead.",
+    "The codebase uses .js files, NOT .tsx. Adapt your component syntax and Framer Motion imports accordingly.",
+    "Do NOT add '.App { text-align: center; }'. It breaks natural reading flow.",
+    "Create 5 realistic, high-quality placeholder testimonials focusing on ambiance, food, and the rooftop view.",
+    "Ensure images are wrapped in containers that prevent stretching and maintain layout aspect ratios.",
+    "Only use the provided real photo URLs, no placeholders."
+  ]
+}

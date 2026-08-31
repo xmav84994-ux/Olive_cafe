@@ -1,0 +1,136 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --bg: #050505;
+    --surface: #121212;
+    --gold: #c5a059;
+    --gold-bright: #d4af37;
+    --olive: #2c3524;
+    --teal: #1a3636;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: auto;
+}
+
+html.lenis,
+html.lenis body {
+    height: auto;
+}
+.lenis.lenis-smooth {
+    scroll-behavior: auto !important;
+}
+.lenis.lenis-smooth [data-lenis-prevent] {
+    overscroll-behavior: contain;
+}
+.lenis.lenis-stopped {
+    overflow: hidden;
+}
+
+body {
+    margin: 0;
+    background: var(--bg);
+    color: #f5f5f5;
+    font-family: "Outfit", -apple-system, BlinkMacSystemFont, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+}
+
+.font-serif {
+    font-family: "Cormorant Garamond", Georgia, serif;
+}
+.font-sans {
+    font-family: "Outfit", sans-serif;
+}
+
+/* Selection */
+::selection {
+    background: var(--gold);
+    color: #050505;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 9px;
+}
+::-webkit-scrollbar-track {
+    background: #050505;
+}
+::-webkit-scrollbar-thumb {
+    background: #2a2a2a;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: var(--gold);
+}
+
+/* Film grain overlay */
+.grain::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    pointer-events: none;
+    opacity: 0.05;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+.text-gold {
+    color: var(--gold);
+}
+.bg-gold {
+    background: var(--gold);
+}
+
+.gold-glow {
+    text-shadow:
+        0 0 24px rgba(197, 160, 89, 0.45),
+        0 0 60px rgba(197, 160, 89, 0.18);
+}
+.gold-drop {
+    filter: drop-shadow(0 0 30px rgba(197, 160, 89, 0.35));
+}
+
+.reveal-mask {
+    overflow: hidden;
+    display: block;
+}
+
+.hover-lift {
+    transition:
+        transform 0.4s cubic-bezier(0.22, 1, 0.36, 1),
+        color 0.3s ease,
+        background-color 0.3s ease,
+        border-color 0.3s ease;
+}
+.hover-lift:hover {
+    transform: translateY(-4px);
+}
+
+/* Map dark treatment */
+.map-dark {
+    filter: invert(0.92) hue-rotate(180deg) contrast(0.9) grayscale(0.25);
+    transition: filter 0.6s ease;
+}
+.map-dark:hover {
+    filter: invert(0.85) hue-rotate(180deg) contrast(0.95) grayscale(0.05);
+}
+
+.dotted-leader {
+    flex: 1;
+    border-bottom: 1px dotted rgba(197, 160, 89, 0.35);
+    margin: 0 0.75rem 0.35rem;
+}
+
+@layer base {
+    * {
+        border-color: rgba(197, 160, 89, 0.15);
+    }
+}
