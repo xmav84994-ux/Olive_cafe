@@ -14,15 +14,15 @@ export const INFO = {
 
 export const IMAGES = {
   hero:
-    "https://customer-assets-m6fa6gv7.emergentagent.net/job_3ac1b4a5-b0ae-4ffd-9332-2af689cc34a0/artifacts/v8ziaoz7_ChatGPT%20Image%20Aug%2031%2C%202026%2C%2011_40_21%20AM.png",
+    "https://customer-assets-m6fa6gv7.emergentagent.net/job_3ac1b4a5-b0ae-4ffd-9332-2af689cc34a0/artifacts/306rjbvr_ChatGPT%20Image%20Aug%2031%2C%202026%2C%2011_50_43%20AM.png",
   interiorTeal:
-    "https://customer-assets-m6fa6gv7.emergentagent.net/job_3ac1b4a5-b0ae-4ffd-9332-2af689cc34a0/artifacts/8915fwv7_ChatGPT%20Image%20Aug%2031%2C%202026%2C%2011_40_50%20AM.png",
+    "https://customer-assets-m6fa6gv7.emergentagent.net/job_3ac1b4a5-b0ae-4ffd-9332-2af689cc34a0/artifacts/vyka5rlh_ChatGPT%20Image%20Aug%2031%2C%202026%2C%2011_41_16%20AM.png",
   diningHall:
     "https://customer-assets-m6fa6gv7.emergentagent.net/job_3ac1b4a5-b0ae-4ffd-9332-2af689cc34a0/artifacts/smob44cr_ChatGPT%20Image%20Aug%2031%2C%202026%2C%2011_41_07%20AM.png",
   lamp:
-    "https://customer-assets-m6fa6gv7.emergentagent.net/job_3ac1b4a5-b0ae-4ffd-9332-2af689cc34a0/artifacts/vyka5rlh_ChatGPT%20Image%20Aug%2031%2C%202026%2C%2011_41_16%20AM.png",
+    "https://customer-assets-m6fa6gv7.emergentagent.net/job_3ac1b4a5-b0ae-4ffd-9332-2af689cc34a0/artifacts/8915fwv7_ChatGPT%20Image%20Aug%2031%2C%202026%2C%2011_40_50%20AM.png",
   logo:
-    "https://customer-assets-m6fa6gv7.emergentagent.net/job_3ac1b4a5-b0ae-4ffd-9332-2af689cc34a0/artifacts/306rjbvr_ChatGPT%20Image%20Aug%2031%2C%202026%2C%2011_50_43%20AM.png",
+    "https://customer-assets-m6fa6gv7.emergentagent.net/job_3ac1b4a5-b0ae-4ffd-9332-2af689cc34a0/artifacts/v8ziaoz7_ChatGPT%20Image%20Aug%2031%2C%202026%2C%2011_40_21%20AM.png",
 };
 
 export const CHAPTERS = [
