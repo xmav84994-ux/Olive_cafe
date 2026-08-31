@@ -74,8 +74,7 @@ export const Hero = () => {
           className="mt-8 max-w-xl text-base md:text-lg text-white/75 leading-relaxed"
         >
           A rooftop cafe &amp; restaurant where open skies meet unhurried
-          evenings — coffee, fine dining, fast food, desserts and beloved
-          South Indian, served with genuine warmth.
+          evenings — served with genuine warmth.
         </motion.p>
 
         <motion.div
